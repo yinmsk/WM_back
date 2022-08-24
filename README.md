@@ -6,6 +6,7 @@
 ***
 <br><br/>
 
+
 ## 1. 개발 기간, 참여 인원
 * 개발기간: 2022.07.06 - 2022.08.16
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
@@ -16,6 +17,7 @@
 * **S.A** <a href="https://cold-charcoal.tistory.com/118">블로그로 이동(☞ﾟヮﾟ)☞</a>
 ***
 <br><br/>
+
 
 ## 2. 사용 기술(버전 적기)
 * python 3.7.13
@@ -29,9 +31,11 @@
  
 <br><br/>
 
+
 ## 3. ERD 설계
 ![wm](https://user-images.githubusercontent.com/104487608/186304526-54d008c7-08a2-4e8d-82d7-fb581cc7a8cc.png)
 <br><br/>
+
 
 ## 4. 핵심 기능
 이 프로젝트의 핵심 기능은 000입니다.
@@ -42,42 +46,14 @@
 ### 4-1. 핵심 기능 구현
 핵심 기능 이미지나 글 작성
 ### 4-2. 그 외의 기능 소개
-* 첫 번째 기능 이름 [코드 링크](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
+* 첫 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
   * 기능 설명
-* 두 번째 기능 이름
+* 두 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
   * 기능 설명    
     
   </div>
 </details>
 <br><br/>
-  
 
 
-
-
-
-
-## 🪐Project
-### Frontend Repository
-<a href="https://github.com/cmjcum/WM_front"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
-
-### Feature
-* JWT를 이용한 로그인
-* 딥페이크를 통한 움직이는 사진 생성
-* AWS S3에 이미지 저장
-* 게시판 페이지네이션
-* 바닐라 JS로 구현한 방 꾸미기 기능
-
-### Architecture
-![image](https://user-images.githubusercontent.com/71905164/182599471-7262271c-a5b7-4379-8460-0a9b933a51dc.png)
-
-### API
-<a href="https://typingmylife.notion.site/MakeMigrations-API-88de2c1a1ccd457c9059c8b55ee3dc70">노션 페이지로 이동(☞ﾟヮﾟ)☞</a>
-
-### ERD
-![make migrations (6)](https://user-images.githubusercontent.com/71905164/182602214-7d8cf839-76d6-4d30-af03-99d5f9481137.png)
-***
-
-## 🌠Credit
-* 프로젝트에 사용된 모든 가구 벡터는 <a href='https://kr.freepik.com/author/macrovector'>macrovector - kr.freepik.com가 제작함</a>
-* <a href="https://www.flaticon.com/free-icons/planet" title="planet icons">Planet icons created by Eucalyp - Flaticon</a>
+## 5. 핵심 트러블 슈팅
