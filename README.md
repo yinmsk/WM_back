@@ -5,8 +5,7 @@
 커뮤니티 기능 및 마이 페이지에서 방 꾸미는 기능 등
 ***
 # ⭐Intro
-* 다른 행성들로 이주해서 생활한다는 컨셉의 커뮤니티
-* 딥페이크를 이용해서 사진을 움직이게 만들어줌
+* 개발기간: 2022.07.06 - 2022.08.16
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 김동근 <a href="https://github.com/yinmsk"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 노을 <a href="https://github.com/minkkky"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
