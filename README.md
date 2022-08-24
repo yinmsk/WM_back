@@ -4,7 +4,9 @@
 
 커뮤니티 기능 및 마이 페이지에서 방 꾸미는 기능 등
 ***
-## ⭐개발 기간, 참여 인원
+<br><br/>
+
+## 1. 개발 기간, 참여 인원
 * 개발기간: 2022.07.06 - 2022.08.16
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 김동근 <a href="https://github.com/yinmsk"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
@@ -13,8 +15,9 @@
 이현경 <a href="https://github.com/LULULALA2"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 * **S.A** <a href="https://cold-charcoal.tistory.com/118">블로그로 이동(☞ﾟヮﾟ)☞</a>
 ***
+<br><br/>
 
-## 사용 기술(버전 적기)
+## 2. 사용 기술(버전 적기)
 * python 3.7.13
 * Django 3.2.13
 * DRF 3.13.1
@@ -23,23 +26,30 @@
 * AWS
 * postgreSQL
 * javascript
+ 
+<br><br/>
 
-## ERD 설계
+## 3. ERD 설계
 ![wm](https://user-images.githubusercontent.com/104487608/186304526-54d008c7-08a2-4e8d-82d7-fb581cc7a8cc.png)
+<br><br/>
 
-## 핵심 기능
+## 4. 핵심 기능
 이 프로젝트의 핵심 기능은 000입니다.
 <details>
-  <summary>핵심 기능 자세히 알아보기</summary>
+  <summary>기능 자세히 알아보기</summary>
   <div markdown="1">
  
-## 핵심 기능
+### 4-1. 핵심 기능 구현
 핵심 기능 이미지나 글 작성
-### 핵심 기능 1
-    
+### 4-2. 그 외의 기능 소개
+* 첫 번째 기능 이름 [코드 링크](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
+  * 기능 설명
+* 두 번째 기능 이름
+  * 기능 설명    
     
   </div>
 </details>
+<br><br/>
   
 
 
