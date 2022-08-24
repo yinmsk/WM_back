@@ -56,4 +56,23 @@
 <br><br/>
 
 
-## 5. 핵심 트러블 슈팅
+## 5. 트러블 슈팅
+<details>
+  <summary>트러블 슈팅 1</summary>
+  <div markdown="1">
+ 
+* 여기
+  </div>
+</details>
+
+<details>
+  <summary>트러블 슈팅 2</summary>
+  <div markdown="1">
+ 
+* 여기
+  </div>
+</details>
+<br><br/>
+
+## 6. 회고 느낀점
+> 프로젝트 개발 회고 (https://github.com/yinmsk/portfolio)
