@@ -4,7 +4,7 @@
 
 커뮤니티 기능 및 마이 페이지에서 방 꾸미는 기능 등
 ***
-# ⭐Intro
+# ⭐개발 기간, 참여 인원
 * 개발기간: 2022.07.06 - 2022.08.16
 * **Team** <a href="https://github.com/cmjcum"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
 김동근 <a href="https://github.com/yinmsk"><img src="https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white"/></a>
