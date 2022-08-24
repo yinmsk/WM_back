@@ -38,14 +38,16 @@
 
 
 ## 4. 핵심 기능
-이 프로젝트의 핵심 기능은 000입니다.
+게시판과 마이홈을 통한 회원들 간의 소통과 상점에서 구입한 가구를 통해 방을 꾸미는 기능.
+* JWT를 이용한 로그인
+* 딥페이크를 통한 움직이는 사진 생성
+* 게시판 별 게시글과 댓글 CRUD
+* 가구 상점과 상점에서 구매한 가구로 방 꾸미기
 <details>
   <summary>기능 자세히 알아보기</summary>
   <div markdown="1">
  
-#### 4-1. 핵심 기능 구현
-핵심 기능 이미지나 글 작성
-#### 4-2. 그 외의 기능 소개
+#### 4-2. 기능 소개
 * 첫 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
   * 기능 설명
 * 두 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
