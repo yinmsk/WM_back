@@ -48,10 +48,13 @@
   <div markdown="1">
  
 #### 4-2. 기능 소개
-* 첫 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
-  * 기능 설명
-* 두 번째 기능 이름 [코드 확인](https://github.com/yinmsk/WM_back/blob/739a549417f4d2bfa0fa7d6eea1c42a45d89631b/myroom/views.py#L42-L44)
-  * 기능 설명    
+* 좋아요 팔로우를 한 사람을 구분하기 위한 boolean [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31)
+  * 유저의 아이디 안에 좋아요, 팔로우를 한 사람의 아이디 유무에 따라 참 거짓을 보내준다.
+  * 리스트 컴프리헨션을 사용했다.
+* 방명록 작성 기능 [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L64)
+  * 시리얼라이저의 정보를 가져오고 .is_vaild() 를 통해 유효성을 검사 후 .save() 를 통해 저장 하였다.
+* 좋아요 기능 [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87)
+  * .exists() 를 통해 좋아요를 누른 유저의 존재를 확인해서 존재한다면 해당 유저를 삭제하고, 좋아요한 유저가 없다면 유저를 추가해 주었다.
     
   </div>
 </details>
@@ -60,21 +63,21 @@
 
 ## 5. 트러블 슈팅
 <details>
-  <summary>트러블 슈팅 1</summary>
+  <summary>좋아요, 팔로우를 누른 사람과 받는 사람 모두에게 좋아요, 팔로우가 추가 되었다.</summary>
   <div markdown="1">
  
-* 여기
+* like 와 follow 필드를 M to M 필드로 했었는데 그렇게 한다면 symmetrical 이 기본적으로 True 이여서 모두에게 추가 되었었다.
+* symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다.
+[코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
   </div>
 </details>
 
 <details>
-  <summary>트러블 슈팅 2</summary>
+  <summary>OrderedDict([('A', 1)]) 형태의 데이터를 가져오지 못해 좋아요, 팔로우 유무를 출력할 수 없었다.</summary>
   <div markdown="1">
  
-* 여기
+* 반복문을 리스트 형태로 저장해주는 리스트 컴프리헨션을 사용해 데이터를 가져올 수 있었다.
+[코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L33)
   </div>
 </details>
 <br><br/>
-
-## 6. 회고 느낀점
-> 프로젝트 개발 회고 (https://github.com/yinmsk/portfolio)
