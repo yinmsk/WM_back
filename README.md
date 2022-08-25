@@ -47,7 +47,7 @@
   <summary>기능 자세히 알아보기</summary>
   <div markdown="1">
  
-###기능 소개
+### 기능 소개
 * 좋아요 팔로우를 한 사람을 구분하기 위한 boolean [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31)
   * 유저의 아이디 안에 좋아요, 팔로우를 한 사람의 아이디 유무에 따라 참 거짓을 보내준다.
   * 리스트 컴프리헨션을 사용했다.
