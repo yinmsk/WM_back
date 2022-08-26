@@ -107,10 +107,21 @@
 [📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L33)
   </div>
 </details>
+
+<details>
+  <summary>게시글 및 방명록 해킹 시도가 있었다.</summary>
+  <div markdown="1">
+ 
+* 처음 배포를 한 상태에서는 XSS 공격 가능성을 전혀 고려하지 못해 우리 웹사이트가 XSS 공격을 받았습니다.
+* 사용자가 조회할 수 있는 텍스트들을 저장할 때 부등호 기호(<, >)를 전부 html 특수문자 코드로(&lt;, &gt;) 바꾸어 저장했습니다.
+* Seralizer를 통해 저장할 때 validator를 커스텀 해 replace 함수로 문자열을 바꿔주었습니다.
+[📄코드](https://github.com/yinmsk/WM_back/blob/95aa8105cdb965d4f195934fac5bab6d305545d4/myroom/seriailzers.py#L125)
+  </div>
+</details>
 <br><br/>
 
 ## 8. 회고 느낀점
 * 최종프로젝트는 기간이 길어서 여러 기능들을 구현해 볼 수 있었던 점이 가장 좋았습니다.
-* 이전에 사용하지 못했던 여러 기능들을 사용할 수 있었습니다다.
-* 해킹 방지, 자바스크립트 feach 기능등 이전에도 사용해 보았던 기능들도 있지만
+* 이전에 사용하지 못했던 여러 기능들을 사용할 수 있었습니다.
+* 해킹 방지, 자바스크립트 feach 기능 등 기능을 사용할 수 있었다.
 * 전에 사용했던 기능들은 더 깊게 알게되는 시간이 되었고 사용해보지 못했던 여러 기능들도 익히는 시간이 되었다.
