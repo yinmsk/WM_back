@@ -68,10 +68,9 @@
 
 ## 6. 트러블 슈팅
 <details>
-  <summary>좋아요를 누른 사람에게만 좋아요가 추가 되어야 했는데 누른 사람 받는 모두에게도 좋아요가 추가 되었다.</summary>
+  <summary>like 와 follow 필드를 M to M 필드로 했었는데 symmetrical 이 기본적으로 True 이여서 모두에게 추가 되었었다.</summary>
   <div markdown="1">
  
-* like 와 follow 필드를 M to M 필드로 했었는데 그렇게 한다면 symmetrical 이 기본적으로 True 이여서 모두에게 추가 되었었다.
 * symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다.
 [📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
   </div>
@@ -87,10 +86,9 @@
 </details>
 
 <details>
-  <summary>게시글 및 방명록 해킹 시도가 있었다.</summary>
+  <summary>처음 배포를 한 상태에서는 XSS 공격 가능성을 전혀 고려하지 못해 웹사이트가 XSS 공격을 받았습니다.</summary>
   <div markdown="1">
  
-* 처음 배포를 한 상태에서는 XSS 공격 가능성을 전혀 고려하지 못해 우리 웹사이트가 XSS 공격을 받았습니다.
 * 사용자가 조회할 수 있는 텍스트들을 저장할 때 부등호 기호(<, >)를 전부 html 특수문자 코드로(&lt;, &gt;) 바꾸어 저장했습니다.
 * Seralizer를 통해 저장할 때 validator를 커스텀 해 replace 함수로 문자열을 바꿔주었습니다.
 [📄코드](https://github.com/yinmsk/WM_back/blob/95aa8105cdb965d4f195934fac5bab6d305545d4/myroom/seriailzers.py#L125)
