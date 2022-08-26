@@ -43,18 +43,14 @@
 * 딥페이크를 통한 움직이는 사진 생성
 * 게시판 별 게시글과 댓글 CRUD
 * 가구 상점과 상점에서 구매한 가구로 방 꾸미기
+
+## 5. 맡은 기능
 <details>
-  <summary>기능 자세히 알아보기</summary>
+  <summary>좋아요 팔로우를 한 사람을 구분하기 위한 boolean</summary>
   <div markdown="1">
  
-### 기능 소개
-* 좋아요 팔로우를 한 사람을 구분하기 위한 boolean [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31)
-  * 유저의 아이디 안에 좋아요, 팔로우를 한 사람의 아이디 유무에 따라 참 거짓을 보내준다.
-  * 리스트 컴프리헨션을 사용했다.
-* 방명록 작성 기능 [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L64)
-  * 시리얼라이저의 정보를 가져오고 .is_vaild() 를 통해 유효성을 검사 후 .save() 를 통해 저장 하였다.
-* 좋아요 기능 [코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87)
-  * .exists() 를 통해 좋아요를 누른 유저의 존재를 확인해서 존재한다면 해당 유저를 삭제하고, 좋아요한 유저가 없다면 유저를 추가해 주었다.
+* 유저의 아이디 안에 좋아요, 팔로우를 한 사람의 아이디 유무에 따라 참 거짓을 보내준다.
+* 리스트 컴프리헨션을 사용했다.
     
   </div>
 </details>
