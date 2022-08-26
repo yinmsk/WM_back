@@ -74,7 +74,7 @@
 </details>
 
 <details>
-  <summary>상점 페이지에서 가구 구매 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a></summary>
+  <summary>상점 페이지에서 가구 구매 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a></summary>
   <div markdown="1">
  
 * 유저가 선택한 가구를 구매합니다.
