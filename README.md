@@ -63,6 +63,25 @@
     * model 에서 최근 생성일로 가져온 정보를 시리얼라이저에 담아서 return 해 주었다.
   </div>
 </details>
+
+<details>
+  <summary>보유 가구 불러오기 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다.
+* 방 꾸미기 버튼을 눌렀을 때 유저가 구매한 가구들의 목록을 보여줍니다. 
+  </div>
+</details>
+
+<details>
+  <summary>상점 페이지에서 가구 구매 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 유저가 선택한 가구를 구매합니다.
+* 선택한 가구를 유저 보유 가구에 추가하고 보유 코인을 차감합니다. 만약 보유 코인이 구매하려는 가구의 가격보다 적다면 구매할 수 없습니다.
+* 구매에 성공하면 프론트로 True를, 보유 코인이 적어 실패하면 False를 전송합니다.
+  </div>
+</details>
 <br><br/>
 
 
