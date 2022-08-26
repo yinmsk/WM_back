@@ -77,7 +77,7 @@
 
 ## 7. 트러블 슈팅
 <details>
-  <summary>좋아요, 팔로우를 누른 사람과 받는 사람 모두에게 좋아요, 팔로우가 추가 되었다.</summary>
+  <summary>좋아요를 누른 사람에게만 좋아요가 추가 되어야 했는데 누른 사람 받는 모두에게도 좋아요가 추가 되었다.</summary>
   <div markdown="1">
  
 * like 와 follow 필드를 M to M 필드로 했었는데 그렇게 한다면 symmetrical 이 기본적으로 True 이여서 모두에게 추가 되었었다.
