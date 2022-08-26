@@ -26,9 +26,11 @@
 * Docker-compose
 <br><br/>
 
+
 ## 3. API 명세서
 <a href="https://typingmylife.notion.site/MakeMigrations-API-88de2c1a1ccd457c9059c8b55ee3dc70">API 명세서 자료</a>
 <br><br/>
+
 
 ## 4. ERD 설계
 ![wm_erd](https://user-images.githubusercontent.com/104487608/186808469-be6b3f37-376e-4249-ada7-be28f86a7eff.png)
@@ -42,6 +44,7 @@
 * 게시판 별 게시글과 댓글 CRUD
 * 가구 상점과 상점에서 구매한 가구로 방 꾸미기
 <br><br/>
+
 
 ## 6. 맡은 기능
 <details>
@@ -119,6 +122,7 @@
   </div>
 </details>
 <br><br/>
+
 
 ## 8. 회고 느낀점
 * 최종프로젝트는 기간이 길어서 여러 기능들을 구현해 볼 수 있었던 점이 가장 좋았습니다.
