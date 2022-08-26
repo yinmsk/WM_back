@@ -20,24 +20,22 @@
 
 
 ## 2. 사용 기술(버전 적기)
-* python 3.7.13
-* Django 3.2.13
-* DRF 3.13.1
-* deepfake
-* docker
-* AWS
-* postgreSQL
-* javascript
- 
+* Python 3.7
+* Django REST Framework 3.13
+* Docker
+* Docker-compose
+<br><br/>
+
+## 3. API 명세서
+<a href="https://typingmylife.notion.site/MakeMigrations-API-88de2c1a1ccd457c9059c8b55ee3dc70">API 명세서 자료</a>
+<br><br/>
+
+## 4. ERD 설계
+![wm_erd](https://user-images.githubusercontent.com/104487608/186808469-be6b3f37-376e-4249-ada7-be28f86a7eff.png)
 <br><br/>
 
 
-## 3. ERD 설계
-![wm](https://user-images.githubusercontent.com/104487608/186304526-54d008c7-08a2-4e8d-82d7-fb581cc7a8cc.png)
-<br><br/>
-
-
-## 4. 핵심 기능
+## 5. 핵심 기능
 게시판과 마이홈을 통한 회원들 간의 소통과 상점에서 구입한 가구를 통해 방을 꾸미는 기능.
 * JWT를 이용한 로그인
 * 딥페이크를 통한 움직이는 사진 생성
@@ -45,7 +43,7 @@
 * 가구 상점과 상점에서 구매한 가구로 방 꾸미기
 <br><br/>
 
-## 5. 맡은 기능
+## 6. 맡은 기능
 <details>
   <summary>좋아요 팔로우를 한 사람을 구분하기 위한 boolean <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31">📄코드</a></summary>
   <div markdown="1">
@@ -64,6 +62,23 @@
 </details>
 
 <details>
+  <summary>방명록 삭제 기능 <a href="https://github.com/yinmsk/WM_back/blob/db4aa5df5a123046a8a3b7d58ac0d7143cb14ac9/myroom/views.py#L77">📄코드</a></summary>
+  <div markdown="1">
+ 
+* .objects.get 을 통해 작성한 방명록 글을 가져와주고 .delete() 를 통해 삭제 하였다.
+  </div>
+</details>
+
+<details>
+  <summary>방명록 조회 기능 <a href="https://github.com/yinmsk/WM_back/blob/db4aa5df5a123046a8a3b7d58ac0d7143cb14ac9/myroom/views.py#L56">📄코드</a></summary>
+  <div markdown="1">
+ 
+* objects.filter() 를 통해 해당 유저의 방명록을 가져와주고 .order_by('-create_date') 를 통해 최근 생성일로 조회가 가능하게 해 주었다.
+* model 에서 최근 생성일로 가져온 정보를 시리얼라이저에 담아서 return 해 주었다.
+  </div>
+</details>
+
+<details>
   <summary>좋아요 기능 <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87">📄코드</a></summary>
   <div markdown="1">
  
@@ -73,7 +88,7 @@
 <br><br/>
 
 
-## 6. 트러블 슈팅
+## 7. 트러블 슈팅
 <details>
   <summary>좋아요, 팔로우를 누른 사람과 받는 사람 모두에게 좋아요, 팔로우가 추가 되었다.</summary>
   <div markdown="1">
@@ -94,11 +109,8 @@
 </details>
 <br><br/>
 
-## 7. 회고 느낀점
-> 프로젝트 개발 회고 (https://github.com/yinmsk/portfolio)
-최종프로젝트는 기간이 길어서 여러 기능들을 구현해 볼 수 있었던 점이 가장 좋았던것 같습니다
-이전에는 회원가입 기능 구현과 아주 간단한 기능들을 구현하고 익히는게 어려
-마지막 프로젝트를 통해 get post put delete 모든 기능들을 사용해 볼 수 있었고
-해킹 방지, 자바스크립트 feach 기능등 이전에도 사용해 보았던 기능들도 있지만
-전에 사용했던 기능들은 더 깊게 알게되는 시간이 되었고
-사용해보지 못했던 여러 기능들도 익히는 시간이 되었다.
+## 8. 회고 느낀점
+* 최종프로젝트는 기간이 길어서 여러 기능들을 구현해 볼 수 있었던 점이 가장 좋았습니다.
+* 이전에 사용하지 못했던 여러 기능들을 사용할 수 있었습니다다.
+* 해킹 방지, 자바스크립트 feach 기능등 이전에도 사용해 보았던 기능들도 있지만
+* 전에 사용했던 기능들은 더 깊게 알게되는 시간이 되었고 사용해보지 못했던 여러 기능들도 익히는 시간이 되었다.
