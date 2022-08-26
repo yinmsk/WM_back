@@ -43,28 +43,44 @@
 * 딥페이크를 통한 움직이는 사진 생성
 * 게시판 별 게시글과 댓글 CRUD
 * 가구 상점과 상점에서 구매한 가구로 방 꾸미기
+<br><br/>
 
 ## 5. 맡은 기능
 <details>
-  <summary>좋아요 팔로우를 한 사람을 구분하기 위한 boolean <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31">코드 확인</a></summary>
+  <summary>좋아요 팔로우를 한 사람을 구분하기 위한 boolean <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31">📄코드</a></summary>
   <div markdown="1">
  
 * 유저의 아이디 안에 좋아요, 팔로우를 한 사람의 아이디 유무에 따라 참 거짓을 보내준다.
 * 리스트 컴프리헨션을 사용했다.
-    
+  </div>
+</details>
+
+<details>
+  <summary>방명록 작성 기능 <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L64">📄코드</a></summary>
+  <div markdown="1">
+ 
+* 시리얼라이저의 정보를 가져오고 .is_vaild() 를 통해 유효성을 검사 후 .save() 를 통해 저장 하였다.
+  </div>
+</details>
+
+<details>
+  <summary>좋아요 기능 <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87">📄코드</a></summary>
+  <div markdown="1">
+ 
+* .exists() 를 통해 좋아요를 누른 유저의 존재를 확인해서 존재한다면 해당 유저를 삭제하고, 좋아요한 유저가 없다면 유저를 추가해 주었다.
   </div>
 </details>
 <br><br/>
 
 
-## 5. 트러블 슈팅
+## 6. 트러블 슈팅
 <details>
   <summary>좋아요, 팔로우를 누른 사람과 받는 사람 모두에게 좋아요, 팔로우가 추가 되었다.</summary>
   <div markdown="1">
  
 * like 와 follow 필드를 M to M 필드로 했었는데 그렇게 한다면 symmetrical 이 기본적으로 True 이여서 모두에게 추가 되었었다.
 * symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다.
-[코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
+[📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
   </div>
 </details>
 
@@ -73,12 +89,12 @@
   <div markdown="1">
  
 * 반복문을 리스트 형태로 저장해주는 리스트 컴프리헨션을 사용해 데이터를 가져올 수 있었다.
-[코드 확인](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L33)
+[📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L33)
   </div>
 </details>
 <br><br/>
 
-## 6. 회고 느낀점
+## 7. 회고 느낀점
 > 프로젝트 개발 회고 (https://github.com/yinmsk/portfolio)
 최종프로젝트는 기간이 길어서 여러 기능들을 구현해 볼 수 있었던 점이 가장 좋았던것 같습니다
 이전에는 회원가입 기능 구현과 아주 간단한 기능들을 구현하고 익히는게 어려
