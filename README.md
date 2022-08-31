@@ -89,7 +89,7 @@
   <summary>like 와 follow 필드를 M to M 필드로 했었는데 symmetrical 이 기본적으로 True 이여서 한쪽의 사람만 추가 되는 것이 아닌 양쪽의 사람이 추가 되었다.</summary>
   <div markdown="1">
  
-* symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다.
+* symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다. <br>
 [📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
   </div>
 </details>
@@ -98,7 +98,7 @@
   <summary>OrderedDict([('A', 1)]) 형태의 데이터를 가져오지 못해 좋아요, 팔로우 유무를 출력할 수 없었다.</summary>
   <div markdown="1">
  
-* 반복문을 리스트 형태로 저장해주는 리스트 컴프리헨션을 사용해 데이터를 가져올 수 있었다.
+* 반복문을 리스트 형태로 저장해주는 리스트 컴프리헨션을 사용해 데이터를 가져올 수 있었다. <br>
 [📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L33)
   </div>
 </details>
@@ -108,7 +108,7 @@
   <div markdown="1">
  
 * 사용자가 조회할 수 있는 텍스트들을 저장할 때 부등호 기호(<, >)를 전부 html 특수문자 코드로(&lt;, &gt;) 바꾸어 저장했습니다.
-* Seralizer를 통해 저장할 때 validator를 커스텀 해 replace 함수로 문자열을 바꿔주었습니다.
+* Seralizer를 통해 저장할 때 validator를 커스텀 해 replace 함수로 문자열을 바꿔주었습니다. <br>
 [📄코드](https://github.com/yinmsk/WM_back/blob/95aa8105cdb965d4f195934fac5bab6d305545d4/myroom/seriailzers.py#L125)
   </div>
 </details>
