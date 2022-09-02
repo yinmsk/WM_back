@@ -57,11 +57,11 @@
 </details>
 
 <details>
-  <summary>보유 가구 불러오기 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a></summary>
+  <summary>보유 가구 불러오기 기능</summary>
   <div markdown="1">
  
-* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다.
-* 방 꾸미기 버튼을 눌렀을 때 유저가 구매한 가구들의 목록을 보여줍니다. 
+![가구](https://user-images.githubusercontent.com/104487608/188049346-f1cd82f8-02fb-4ebe-af06-8114d6727453.png)
+* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a>
   </div>
 </details>
 
