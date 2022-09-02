@@ -38,39 +38,38 @@
 
 ## 5. 기능 소개
 <details>
-  <summary>좋아요 팔로우 기능</summary>
+  <summary>좋아요 팔로우 기능 <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87">📄코드</summary>
   <div markdown="1">
  
 ![좋아요](https://user-images.githubusercontent.com/104487608/188048493-aa99b0ab-1343-4b11-a48b-5d1924e9faf2.png)
 * 좋아요 팔로우를 한 사람을 구분하기 위한 boolean <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31">📄코드</a>
-* exists() 을 통한 좋아요 기능 <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L87">📄코드</a>
   </div>
 </details>
 
 <details>
-  <summary>방명록 기능</summary>
+  <summary>방명록 기능 <a href="https://github.com/yinmsk/WM_back/blob/db4aa5df5a123046a8a3b7d58ac0d7143cb14ac9/myroom/views.py#L53">📄코드</a></summary>
   <div markdown="1">
  
 ![방명록](https://user-images.githubusercontent.com/104487608/188050467-f77909d7-3144-46d6-bd97-d8538a5a7dce.png)
-* 방명록 작성, 조회, 삭제가 가능하다.<a href="https://github.com/yinmsk/WM_back/blob/db4aa5df5a123046a8a3b7d58ac0d7143cb14ac9/myroom/views.py#L53">📄코드</a>
+* 방명록 작성, 조회, 삭제가 가능하다.
   </div>
 </details>
 
 <details>
-  <summary>보유 가구 불러오기 기능</summary>
+  <summary>보유 가구 불러오기 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a></summary>
   <div markdown="1">
  
 ![가구 조회](https://user-images.githubusercontent.com/104487608/188050146-81259de4-be87-428d-a462-b7f2084c9c77.png)
-* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a>
+* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. 
   </div>
 </details>
 
 <details>
-  <summary>상점 페이지에서 가구 구매 기능</summary>
+  <summary>상점 페이지에서 가구 구매 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a></summary>
   <div markdown="1">
  
 ![가구 구매](https://user-images.githubusercontent.com/104487608/188049573-c76bbc0b-4644-4ab9-9287-af684d2e2936.png)
-* 선택한 가구를 유저 보유 가구에 추가하고 보유 코인을 차감합니다. 만약 보유 코인이 구매하려는 가구의 가격보다 적다면 구매할 수 없습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a>
+* 선택한 가구를 유저 보유 가구에 추가하고 보유 코인을 차감합니다. 만약 보유 코인이 구매하려는 가구의 가격보다 적다면 구매할 수 없습니다. 
   </div>
 </details>
 <br><br/>
