@@ -61,7 +61,7 @@
   <div markdown="1">
  
 ![가구](https://user-images.githubusercontent.com/104487608/188049346-f1cd82f8-02fb-4ebe-af06-8114d6727453.png)
-* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a>
+* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L118">📄코드</a>
   </div>
 </details>
 
