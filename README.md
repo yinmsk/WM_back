@@ -51,7 +51,7 @@
   <summary>방명록 기능</summary>
   <div markdown="1">
  
-![방명록](https://user-images.githubusercontent.com/104487608/188049043-b6b21456-e193-457d-a125-33e0df304a53.png)
+![방명록](https://user-images.githubusercontent.com/104487608/188050467-f77909d7-3144-46d6-bd97-d8538a5a7dce.png)
 * 방명록 작성, 조회, 삭제가 가능하다.<a href="https://github.com/yinmsk/WM_back/blob/db4aa5df5a123046a8a3b7d58ac0d7143cb14ac9/myroom/views.py#L53">📄코드</a>
   </div>
 </details>
@@ -60,18 +60,17 @@
   <summary>보유 가구 불러오기 기능</summary>
   <div markdown="1">
  
-![가구](https://user-images.githubusercontent.com/104487608/188049346-f1cd82f8-02fb-4ebe-af06-8114d6727453.png)
-* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L118">📄코드</a>
+![가구 조회](https://user-images.githubusercontent.com/104487608/188050146-81259de4-be87-428d-a462-b7f2084c9c77.png)
+* 유저는 상점을 통해 구매한 가구만을 이용해 방을 꾸밀 수 있습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L119">📄코드</a>
   </div>
 </details>
 
 <details>
-  <summary>상점 페이지에서 가구 구매 기능 <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a></summary>
+  <summary>상점 페이지에서 가구 구매 기능</summary>
   <div markdown="1">
  
-* 유저가 선택한 가구를 구매합니다.
-* 선택한 가구를 유저 보유 가구에 추가하고 보유 코인을 차감합니다. 만약 보유 코인이 구매하려는 가구의 가격보다 적다면 구매할 수 없습니다.
-* 구매에 성공하면 프론트로 True를, 보유 코인이 적어 실패하면 False를 전송합니다.
+![가구 구매](https://user-images.githubusercontent.com/104487608/188049573-c76bbc0b-4644-4ab9-9287-af684d2e2936.png)
+* 선택한 가구를 유저 보유 가구에 추가하고 보유 코인을 차감합니다. 만약 보유 코인이 구매하려는 가구의 가격보다 적다면 구매할 수 없습니다. <a href="https://github.com/cmjcum/WM_back/blob/master/myroom/views.py#L161">📄코드</a>
   </div>
 </details>
 <br><br/>
@@ -79,9 +78,10 @@
 
 ## 6. 트러블 슈팅
 <details>
-  <summary>like 와 follow 필드를 M to M 필드로 했었는데 symmetrical 이 기본적으로 True 이여서 한쪽의 사람만 추가 되는 것이 아닌 양쪽의 사람이 추가 되었다.</summary>
+  <summary>상대방에게 좋아요 버튼을 누르면 상대방에게만 좋아요가 추가 되는 것이 아닌 나에게도 좋아요가 추가 되었다.</summary>
   <div markdown="1">
  
+![simitical](https://user-images.githubusercontent.com/104487608/188049841-c90880bc-f149-45af-b7ab-900f0b3b5e26.png)
 * symmetrical=False 로 바꾸어 주어 양쪽이 아닌 한쪽의 사람만 추가 될 수 있도록 하였다. <br>
 [📄코드](https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/user/models.py#L39)
   </div>
