@@ -42,7 +42,7 @@
   <div markdown="1">
  
 ![좋아요](https://user-images.githubusercontent.com/104487608/188048493-aa99b0ab-1343-4b11-a48b-5d1924e9faf2.png)
-* 좋아요 팔로우를 한 사람을 구분하기 위한 boolean <a href="https://github.com/yinmsk/WM_back/blob/6a362ffd597ea4796884e87a10c9ccb6c34e6a35/myroom/views.py#L31">📄코드</a>
+* 좋아요 팔로우를 한 사람을 구분하기 위해 boolean 을 사용하였습니다.</a>
   </div>
 </details>
 
