@@ -42,7 +42,8 @@
   <div markdown="1">
  
 ![좋아요](https://user-images.githubusercontent.com/104487608/188048493-aa99b0ab-1343-4b11-a48b-5d1924e9faf2.png)
-* 좋아요 팔로우 기능이 가능합니다.</a>
+* 좋아요 팔로우 유저의 인원수, 이름, 프로필 조회 기능
+* 좋아요 팔로우한 유저의 프로필 클릭시 해당 유저의 마이룸으로 이동이 가능합니다.</a>
   </div>
 </details>
 
@@ -51,7 +52,7 @@
   <div markdown="1">
  
 ![방명록](https://user-images.githubusercontent.com/104487608/188050467-f77909d7-3144-46d6-bd97-d8538a5a7dce.png)
-* 방명록 작성, 조회, 삭제가 가능하다.
+* 방명록 작성, 조회, 삭제 기능
   </div>
 </details>
 
